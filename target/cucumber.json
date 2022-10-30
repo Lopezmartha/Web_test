@@ -1,0 +1,197 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#@ignore"
+      }
+    ],
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5772614700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the app homepage",
+            "match": {
+              "location": "common.iAmOnTheAppHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2323382700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on SignIn",
+            "match": {
+              "location": "common.iClickOnSignIn()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6281093300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "common.setup()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Create new user",
+        "description": "",
+        "id": "create-new-user-account;create-new-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 331143400,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 10,
+                "value": "#Given I get on the homescreen"
+              },
+              {
+                "line": 11,
+                "value": "#When I get on the login screen"
+              }
+            ],
+            "line": 12,
+            "name": "I enter email address for new account",
+            "match": {
+              "location": "CreateNewUser.iEnterEmailAddressForNewAccount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6281511600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click the create account button",
+            "match": {
+              "location": "CreateNewUser.iClickTheCreateAccountButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4184681700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter all required details",
+            "match": {
+              "location": "CreateNewUser.iEnterAllRequiredDetails()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3833695000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click the register button",
+            "match": {
+              "location": "CreateNewUser.iClickTheRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 102004300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "My account should be successfully created",
+            "match": {
+              "location": "CreateNewUser.myAccountShouldBeSuccessfullyCreated()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Create new user account",
+    "description": "",
+    "id": "create-new-user-account",
+    "keyword": "Feature",
+    "uri": "CreateNewUser.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 190400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "common.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "common steps",
+        "description": "",
+        "id": "common;common-steps",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3407524000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the app homepage",
+            "match": {
+              "location": "common.iAmOnTheAppHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3472649100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on SignIn",
+            "match": {
+              "location": "common.iClickOnSignIn()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "common",
+    "description": "",
+    "id": "common",
+    "keyword": "Feature",
+    "uri": "common.feature"
+  }
+]
